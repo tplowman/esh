@@ -48,6 +48,7 @@ chmod +x edgesoftware
 ./edgesoftware install
 ```
 **NOTE:** You may see an error about GStreamer during installation which can safely be ignored. It's for logging purposes only.
+
 When installation is complete, you'll see a table of component **SUCCESS** messages displayed.
 
 ## Step 3 - Run a Demo to Verify the Install
@@ -74,18 +75,18 @@ sudo -EH ./demo_security_barrier_camera.sh
 ```
 3. When successful, an image of a car with two bounding boxes and labels for **make** and **model** will be displayed on screen.
 
-* The sudo command is used because the script downloads some files to the /opt directory, which requires root write permissions.
+* The sudo command is used because the script downloads files to the /opt directory, which requires root write permissions.
 
 * The script downloads a model, converts it to the OpenVINO™ IR format using the **Model Optimizer** and executes the ***security_barrier_camera_demo*** demo script.  Examining the script is also a good introduction to the OpenVINO™ developer workflow.
 
-* You may look at the original image with an image viewer.  The image is located in the same directory and named ***car_1.bmp***
+* You can look at the original image with an image viewer.  The image ***car_1.bmp*** is located in the same directory. 
 
-On Ubuntu, you may open the image with the following command, while in the same directory.
+On Linux, you can open the image with the following command while in the same directory:
 ```sh
 eog car_1.bmp
 ```
 
-Congratulations! By running the demo, you have confirmed that you have a working OpenVINO™ installation.
+**Congratulations!** By running the demo, you have confirmed that you have a working OpenVINO™ installation.
 
 For more information on developing your edge AI solution, see the [OpenVINO™ toolkit library](https://docs.openvinotoolkit.org/2020.3/index.html).
 
