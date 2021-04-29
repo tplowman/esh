@@ -1,6 +1,6 @@
 # Install the Intel® distribution of the OpenVINO™ toolkit with Enterprise Software Hub™
 
-The Intel® Enterprise Software Hub™ (ESH) is a fast, convenient method for OpenVINO™ installation. For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatability, use cases and other resources, see [System Requirements:](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). 
+The Intel® Enterprise Software Hub™ (ESH) is a fast, convenient method for OpenVINO™ installation. For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatability, use cases and other resources, see [System Requirements](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). 
 
 KAT:  DAVID, DID YOU MENTION THIS IS FOR LINUX & WINDOWS ONLY?
 
