@@ -30,7 +30,7 @@ Installation will take 10 minutes or longer depending on your network speed.
   OpenVINO
   | - Intel_Distribution_of_OpenVINO_Toolkit_***
   
-  **NOTE:** The pathway for the "Intel_Distribution_of_OpenVINO_Toolkit" directory will vary depending on the version. KAT: HOW WILL THEY KNOW THE PATH?
+  **NOTE:** The pathway for the **Intel_Distribution_of_OpenVINO_Toolkit** directory will vary depending on the version. KAT: HOW WILL THEY KNOW THE PATH?
   
  2. Enter the directory with the installer:
   Replace the "\*" *** below with either the full name or use tab-completion.
