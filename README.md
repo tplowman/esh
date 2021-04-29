@@ -56,7 +56,7 @@ Verify that the essential OpenVINO™ tools are operating on your system by runn
 
 There are two suitable scripts for testing OpenVINO™; **demo_security_barrier** and **demo_squeezenet**.  We'll use the security barrier script because it has graphical output.
 
-**NOTE:** The version suffix ***openvino_2021.3.394*** used in these commands need to be changed to match the version of OpenVINO™ you have installed.
+**NOTE:** You will need to modify the version suffix ***openvino_2021.3.394*** shown in the commands below to match the version of OpenVINO™ you have installed.
 
 1. Source the required environment variables:
 ```sh
@@ -85,6 +85,7 @@ On Ubuntu, you may open the image with the following command, while in the same 
 eog car_1.bmp
 ```
 
-By running the demo, you have confirmed that you have a working OpenVINO™ installation.
+Congratulations! By running the demo, you have confirmed that you have a working OpenVINO™ installation.
+
 For more information on developing your edge AI solution, see the [OpenVINO™ toolkit library](https://docs.openvinotoolkit.org/2020.3/index.html).
 
