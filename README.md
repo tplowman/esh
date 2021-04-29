@@ -12,7 +12,7 @@ This guide explains how to:
 
 ## Step 1 - Download the ESH Installer
 
-Download the ESH installer [here](https://software.intel.com/iot/edgesoftwarehub/download/home/OpenVINO). 
+Download the ESH installer from the [Edge Software Hub](https://software.intel.com/iot/edgesoftwarehub/download/home/OpenVINO). 
 You will be asked to login or create an Intel Developer Zone account.
 
 1. Select the appropriate **Download Version** and **Target System OS**. 
