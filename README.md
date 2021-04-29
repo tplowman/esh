@@ -55,7 +55,41 @@ When installation is complete verify that the essential tools are operating on y
 
 **NOTE:** You may see an error about GStreamer during installation which can safely be ignored. It's for logging purposes only.
 
-There are two suitable scripts for testing OpenVINO™; **demo_security_barrier** and **demo_squeezenet**.
+There are two suitable scripts for testing OpenVINO™; **demo_security_barrier** and **demo_squeezenet**.  We'll use the security barrier script because it has graphical output.
+
+***NOTE:** The version suffix in ***openvino_2021.3.394*** used in the following commands must be changed to match the version of OpenVINO™ you have installed.
+
+1. Source the required environment variables.
+```sh
+source /opt/intel/openvino_2021.3.394/bin/setupvars.sh
+```
+
+1. Move to the directory where the script is located.
+```sh
+cd /opt/intel/openvino_2021.3.394/deployment_tools/demo
+```
+
+2. Run the demo script.  This will take several minutes.
+```sh
+sudo -EH ./demo_security_barrier_camera.sh
+```
+3. On success, an image of a car with two bounding boxes and labels for make and model will be displayed on screen.
+
+The sudo command is used because the script downloads some files to the /opt directory, which requires root write permissions.
+
+The script downloads a model, converts it to the OpenVINO™ IR format using the Model Optimizer, and executes the ***security_barrier_camera_demo*** demo application.  Examining the script is also a good introduction to the OpenVINO™ developer workflow.
+
+You may look at the original image with an image viewer.  The image is located in the same directory and named ***car_1.bmp***
+
+On Ubuntu, you may open the image with the following command, while in the same directory.
+```sh
+eog car_1.bmp
+```
+
+
+
+
+
 
 
 
