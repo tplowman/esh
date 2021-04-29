@@ -75,11 +75,11 @@ sudo -EH ./demo_security_barrier_camera.sh
 ```
 3. On success, an image of a car with two bounding boxes and labels for make and model will be displayed on screen.
 
-The sudo command is used because the script downloads some files to the /opt directory, which requires root write permissions.
+* The sudo command is used because the script downloads some files to the /opt directory, which requires root write permissions.
 
-The script downloads a model, converts it to the OpenVINO™ IR format using the Model Optimizer, and executes the ***security_barrier_camera_demo*** demo application.  Examining the script is also a good introduction to the OpenVINO™ developer workflow.
+* The script downloads a model, converts it to the OpenVINO™ IR format using the Model Optimizer, and executes the ***security_barrier_camera_demo*** demo application.  Examining the script is also a good introduction to the OpenVINO™ developer workflow.
 
-You may look at the original image with an image viewer.  The image is located in the same directory and named ***car_1.bmp***
+* You may look at the original image with an image viewer.  The image is located in the same directory and named ***car_1.bmp***
 
 On Ubuntu, you may open the image with the following command, while in the same directory.
 ```sh
