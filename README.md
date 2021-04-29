@@ -1,25 +1,23 @@
-# Install the Intel® distribution of the OpenVINO™ toolkit with Enterprise Software Hub™
+# Install the Intel® distribution of the OpenVINO™ toolkit with Edge Software Hub™
 
-The Intel® Enterprise Software Hub™ (ESH) is a fast, convenient method for OpenVINO™ installation. For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatability, use cases and other resources, see [System Requirements](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). 
-
-KAT:  DAVID, DID YOU MENTION THIS IS FOR LINUX & WINDOWS ONLY?
+The Intel® Edge Software Hub™ (ESH) is a fast, convenient method for OpenVINO™ installation. For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatibility, use cases and other resources, see [System Requirements](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). These instructions apply to supported versions of Linux and macOS only.
 
 ## Install OpenVINO™
 
 This guide explains how to:
 
-1. Download the ESH installer from the Intel OpenVINO™ website. KAT:  IS IT FROM THE OV SITE?  OR THE ESH SITE?
+1. Download the ESH installer from the Intel® Edge Software Hub™ website. 
 2. Run the installer.
-3. Run a sample application to verify that the OpenVINO™ toolkit is operational.
+3. Run a demo application to verify that the OpenVINO™ toolkit is operational.
 
 ## Step 1 - Download the ESH Installer
 
-Download the ESH installer [here](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html). KAT: I'M CONFUSED, THIS ISN"T ESH...
+Download the ESH installer [here](https://software.intel.com/iot/edgesoftwarehub/download/home/OpenVINO). 
 You will be asked to login or create an Intel Developer Zone account.
 
-1. Select the appropriate **version** and **target OS** options. KAT: I'M SEEING OPERATING SYSTEM THEN DISTRIBUTION. 
-2. For Environment, select **Development and Runtime**, which installs the complete toolkit.
-3. Read the EULA and press **Accept** when ready.
+1. Select the appropriate **Download Version** and **Target System OS**. 
+2. For **Environment** select **Development and Runtime** which installs the complete toolkit.
+3. Review and **Accept** the EULA.
 4. The **OpenVINO.zip** file downloads to your system.
 
 ## Step 2 - Run the Installer
