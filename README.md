@@ -47,6 +47,7 @@ chmod +x edgesoftware
 ```sh
 ./edgesoftware install
 ```
+When installation is complete, you'll see a table of component **SUCCESS** messages displayed.
 
 ## Step 3 - Run a sample to verify the Install
 
