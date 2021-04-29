@@ -25,13 +25,14 @@ You will be asked to login or create an Intel Developer Zone account.
 Installation will take 10 minutes or longer depending on your network speed.
 
 1. Unzip the installer.  This will create a path similar to:
-  OpenVINO
-  | - Intel_Distribution_of_OpenVINO_Toolkit_***
+  ```sh
+  OpenVINO/Intel_Distribution_of_OpenVINO_Toolkit_***
+  ```
   
-  **NOTE:** The pathway for the **Intel_Distribution_of_OpenVINO_Toolkit** directory will vary depending on the version. KAT: HOW WILL THEY KNOW THE PATH?
+  where *** represents the version of OpenVINO. 
   
  2. Enter the directory with the installer:
-  Replace the "\*" *** below with either the full name or use tab-completion.
+  Replace the *** below with either the full name or use tab-completion.
 
  ```sh
  cd OpenVINO/Intel_Distribution_of_OpenVINO_Toolkit_***
