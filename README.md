@@ -29,7 +29,7 @@ Installation will take 10 minutes or longer depending on your network speed.
   OpenVINO/Intel_Distribution_of_OpenVINO_Toolkit_***
   ```
   
-  where *** represents the version of OpenVINO. 
+  where *** represents the version of OpenVINO™. 
   
  2. Enter the directory with the installer:
   Replace the *** below with either the full name or use tab-completion.
