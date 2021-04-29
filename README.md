@@ -8,7 +8,7 @@ This guide explains how to:
 
 1. Download the ESH installer from the Intel® Edge Software Hub™ website. 
 2. Run the installer.
-3. Run a demo application to verify that the OpenVINO™ toolkit is operational.
+3. Run a demo script to verify that the OpenVINO™ toolkit is operational.
 
 ## Step 1 - Download the ESH Installer
 
@@ -49,9 +49,9 @@ chmod +x edgesoftware
 ```
 When installation is complete, you'll see a table of component **SUCCESS** messages displayed.
 
-## Step 3 - Run a sample to verify the Install
+## Step 3 - Run a Demo to Verify the Install
 
-When installation is complete verify that the essential tools are operating on your system by running a demo script. KAT: DEMO OR SAMPLE?
+When installation is complete verify that the essential tools are operating on your system by running a demo script.
 
 **NOTE:** You may see an error about GStreamer during installation which can safely be ignored. It's for logging purposes only.
 
