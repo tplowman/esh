@@ -87,9 +87,4 @@ eog car_1.bmp
 ```
 
 
-
-
-
-
-
-
+After running the demo, you have confirmed that you have a working OpenVINO™ installation.
