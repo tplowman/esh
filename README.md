@@ -18,7 +18,7 @@ Download the ESH installer [here:](https://software.intel.com/content/www/us/en/
 You will be asked to login or create an Intel Developer Zone account.
 
 1. Select the appropriate **version** and **target OS** options. KAT: I'M SEEING OPERATING SYSTEM THEN DISTRIBUTION. 
-2. For Environment, select **Development and Runtime**, which installS the complete toolkit.
+2. For Environment, select **Development and Runtime**, which installs the complete toolkit.
 3. Read the EULA and press **Accept** when ready.
 4. The **OpenVINO.zip** file downloads to your system.
 
