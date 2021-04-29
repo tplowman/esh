@@ -14,7 +14,7 @@ This guide explains how to:
 
 ## Step 1 - Download the ESH Installer
 
-Download the ESH installer [here:](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html). KAT: I'M CONFUSED, THIS ISN"T ESH...
+Download the ESH installer [here](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/download.html). KAT: I'M CONFUSED, THIS ISN"T ESH...
 You will be asked to login or create an Intel Developer Zone account.
 
 1. Select the appropriate **version** and **target OS** options. KAT: I'M SEEING OPERATING SYSTEM THEN DISTRIBUTION. 
