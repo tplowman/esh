@@ -16,7 +16,7 @@ Download the ESH installer from the [Edge Software Hub](https://software.intel.c
 You will be asked to login or create an Intel Developer Zone account.
 
 1. Select the appropriate **Download Version** and **Target System OS**. 
-2. For **Environment** select **Development and Runtime** which installs the complete toolkit.
+2. For **Environment** select **Development and Runtime** which installs the complete toolkit.<br>
 You'll have the option to download the default package or create a customized installation from pre-validated components. We recommend starting with the default configuration which includes all components.
 4. Review and **Accept** the EULA.
 5. The **OpenVINO.zip** file downloads to your system.
