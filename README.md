@@ -25,18 +25,15 @@ You'll have the option to download the default package or create a customized in
 
 Installation will take 10 minutes or longer depending on your network speed.
 
-1. Unzip the installer.  This will create a path similar to:
+1. Unzip the installer.  This will create this sub-directory:
   ```sh
-  OpenVINO/Intel_Distribution_of_OpenVINO_Toolkit_***
+  OpenVINO/
   ```
   
-  where *** represents the version of OpenVINO™. 
-  
  2. Enter the directory with the installer:
-  Replace the *** below with either the full name or use tab-completion.
 
  ```sh
- cd OpenVINO/Intel_Distribution_of_OpenVINO_Toolkit_***
+ cd OpenVINO/
  ```
 3. Change the mode of the installer binary to allow execution:
 
