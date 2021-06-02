@@ -1,0 +1,14 @@
+To install OpenVINO with ESH on Windows, the following packages should be installed before running the ESH installer.
+ 
+Python 3.8.3
+https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe
+[update PATH system environment variable to refer this version]
+ 
+CMAKE
+https://github.com/Kitware/CMake/releases/download/v3.20.2/cmake-3.20.2-windows-x86_64.msi
+ 
+Build tools
+[Download and install only C++ related build tools. But try to run samples without this package. If not working then install this]
+https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16
+ 
+
