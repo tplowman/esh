@@ -1,27 +1,15 @@
-# Install the Intel® distribution of the OpenVINO™ toolkit with Edge Software Hub™
+# Install the Intel® distribution of the OpenVINO™ toolkit
 
-The Intel® Edge Software Hub™ (ESH) is a fast, convenient method for OpenVINO™ installation. For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatibility, use cases and other resources, see [System Requirements](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). These instructions apply to supported versions of Linux and macOS only.
+For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatibility, use cases and other resources, see [System Requirements](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). These instructions apply to supported versions of Linux and macOS only.
 
 ## Install OpenVINO™
 
 This guide explains how to:
+ 
+1. Run the OpenVINO™ toolkit installer.
+2. Run a demo script to verify that the OpenVINO™ toolkit is operational.
 
-1. Download the ESH installer from the Intel® Edge Software Hub™ website. 
-2. Run the installer.
-3. Run a demo script to verify that the OpenVINO™ toolkit is operational.
-
-## Step 1 - Download the ESH Installer
-
-Download the ESH installer from the [Edge Software Hub](https://software.intel.com/iot/edgesoftwarehub/download/home/OpenVINO). 
-You will be asked to login or create an Intel Developer Zone account.
-
-1. Select the appropriate **Download Version** and **Target System OS**. 
-2. For **Environment** select **Development and Runtime** which installs the complete toolkit.<br>
-You'll have the option to download the default package or create a customized installation from pre-validated components. We recommend starting with the default configuration which includes all components.
-4. Review and **Accept** the EULA.
-5. The **OpenVINO.zip** file downloads to your system.
-
-## Step 2 - Run the Installer
+## Step 1 - Run the Installer
 
 Installation will take 10 minutes or longer depending on your network speed.
 
