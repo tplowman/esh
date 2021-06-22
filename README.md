@@ -1,3 +1,6 @@
+# Download the OpenVINO™ toolkit Installer
+Go to the following link to download [the OpenVINO™ toolkit](https://software.intel.com/content/www/us/en/develop/topics/iot/training/go-to-market-with-openvino.html) 
+
 # Install the Intel® distribution of the OpenVINO™ toolkit
 
 For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatibility, use cases and other resources, see [System Requirements](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). These instructions apply to supported versions of Linux and macOS only.
