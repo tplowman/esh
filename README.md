@@ -53,16 +53,16 @@ There are two suitable scripts for testing OpenVINO™; **demo_security_barrier*
 source /opt/intel/openvino_2021.3.394/bin/setupvars.sh
 ```
 
-1. Move to the directory where the script is located:
+2. Move to the directory where the script is located:
 ```sh
 cd /opt/intel/openvino_2021.3.394/deployment_tools/demo
 ```
 
-2. Run the demo script.  This will take several minutes:
+3. Run the demo script.  This will take several minutes:
 ```sh
 sudo -EH ./demo_security_barrier_camera.sh
 ```
-3. When successful, an image of a car with two bounding boxes and labels for **make** and **model** will be displayed on screen.
+4. When successful, an image of a car with two bounding boxes and labels for **make** and **model** will be displayed on screen.
 
 * The sudo command is used because the script downloads files to the /opt directory, which requires root write permissions.
 
