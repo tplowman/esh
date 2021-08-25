@@ -40,7 +40,7 @@ chmod +x edgesoftware
 
 When installation is complete, you'll see a table of component **SUCCESS** messages displayed.
 
-## Step 3 - Run a Demo to Verify the Install
+## Step 2 - Run a Demo to Verify the Install
 
 Verify that the essential OpenVINO™ tools are operating on your system by running a demo script.
 
