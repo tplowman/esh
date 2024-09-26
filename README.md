@@ -1,27 +1,18 @@
-# Install the Intel® distribution of the OpenVINO™ toolkit with Edge Software Hub™
+# Download the OpenVINO™ toolkit Installer
+Go to the following link to download [the OpenVINO™ toolkit](https://software.intel.com/content/www/us/en/develop/topics/iot/training/go-to-market-with-openvino.html) 
 
-The Intel® Edge Software Hub™ (ESH) is a fast, convenient method for OpenVINO™ installation. For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatibility, use cases and other resources, see [System Requirements](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). These instructions apply to supported versions of Linux and macOS only.
+# Install the Intel® distribution of the OpenVINO™ toolkit
+
+For complete information on the OpenVINO™ toolkit including an overview, system requirements, OS compatibility, use cases and other resources, see [System Requirements](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/system-requirements.html). These instructions apply to supported versions of Linux and macOS only.
 
 ## Install OpenVINO™
 
 This guide explains how to:
+ 
+1. Run the OpenVINO™ toolkit installer.
+2. Run a demo script to verify that the OpenVINO™ toolkit is operational.
 
-1. Download the ESH installer from the Intel® Edge Software Hub™ website. 
-2. Run the installer.
-3. Run a demo script to verify that the OpenVINO™ toolkit is operational.
-
-## Step 1 - Download the ESH Installer
-
-Download the ESH installer from the [Edge Software Hub](https://software.intel.com/iot/edgesoftwarehub/download/home/OpenVINO). 
-You will be asked to login or create an Intel Developer Zone account.
-
-1. Select the appropriate **Download Version** and **Target System OS**. 
-2. For **Environment** select **Development and Runtime** which installs the complete toolkit.<br>
-You'll have the option to download the default package or create a customized installation from pre-validated components. We recommend starting with the default configuration which includes all components.
-4. Review and **Accept** the EULA.
-5. The **OpenVINO.zip** file downloads to your system.
-
-## Step 2 - Run the Installer
+## Step 1 - Run the Installer
 
 Installation will take 10 minutes or longer depending on your network speed.
 
@@ -49,7 +40,7 @@ chmod +x edgesoftware
 
 When installation is complete, you'll see a table of component **SUCCESS** messages displayed.
 
-## Step 3 - Run a Demo to Verify the Install
+## Step 2 - Run a Demo to Verify the Install
 
 Verify that the essential OpenVINO™ tools are operating on your system by running a demo script.
 
@@ -62,16 +53,16 @@ There are two suitable scripts for testing OpenVINO™; **demo_security_barrier*
 source /opt/intel/openvino_2021.3.394/bin/setupvars.sh
 ```
 
-1. Move to the directory where the script is located:
+2. Move to the directory where the script is located:
 ```sh
 cd /opt/intel/openvino_2021.3.394/deployment_tools/demo
 ```
 
-2. Run the demo script.  This will take several minutes:
+3. Run the demo script.  This will take several minutes:
 ```sh
 sudo -EH ./demo_security_barrier_camera.sh
 ```
-3. When successful, an image of a car with two bounding boxes and labels for **make** and **model** will be displayed on screen.
+4. When successful, an image of a car with two bounding boxes and labels for **make** and **model** will be displayed on screen.
 
 * The sudo command is used because the script downloads files to the /opt directory, which requires root write permissions.
 
